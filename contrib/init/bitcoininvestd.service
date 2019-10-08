@@ -1,0 +1,26 @@
+[Unit]
+Description=BitcoinInvest's distributed currency daemon
+After=network.target
+
+[Service]
+User=bitcoininvest
+Group=bitcoininvest
+
+Type=forking
+PIDFile=/var/lib/bitcoininvestd/bitcoininvestd.pid
+
+ExecStart=/usr/bin/bitcoininvestd -daemon -pid=/var/lib/bitcoininvestd/bitcoininvestd.pid \
+          -conf=/etc/bitcoininvest/bitcoininvest.conf -datadir=/var/lib/bitcoininvestd
+
+ExecStop=-/usr/bin/bitcoininvest-cli -conf=/etc/bitcoininvest/bitcoininvest.conf \
+         -datadir=/var/lib/bitcoininvestd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

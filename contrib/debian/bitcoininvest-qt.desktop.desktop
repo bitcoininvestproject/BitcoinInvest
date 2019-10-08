@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=BitcoinInvest
+Comment=BitcoinInvest P2P Cryptocurrency
+Exec=bitcoininvest-qt %u
+Terminal=false
+Type=Application
+Icon=bitcoininvest128
+MimeType=x-scheme-handler/bitcoininvest;
+Categories=Office;Finance;
+Name[en_US]=bitcoininvest-qt.desktop
