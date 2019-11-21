@@ -6,19 +6,19 @@ BitcoinInvest (BTV) is a sustainable cryptocurrency modeled after Satoshi Nakamo
 - Fast transactions featuring guaranteed zero confirmation transactions, we call it _SwiftTX_.
 - Decentralized blockchain voting providing for consensus based advancement of the current Masternode
   technology used to secure the network and provide the above features, each Masternode is secured
-  with a collateral of 20,000 BTV.
+  with a collateral of 5,000 BTV.
 
 
 Please reach out at info@btv.org
 
 ### Coin Specs
-| Block Time                  | 10 Minutes      |
-| Max Coin Supply (PoW Phase) | 9,000,000 BTV    |
-| Max Coin Supply (PoS Phase) | 77,000,000 BTV |
-| Premine                     | 9,000,000 BTV    |
+| Block Time                  | 2 Minutes      |
+| Max Coin Supply (PoW Phase) | 2,000,000 BTV    |
+| Max Coin Supply (PoS Phase) | 35,000,000 BTV |
+| Premine                     | 2,000,000 BTV    |
 
 ### Reward Distribution
 
 | **Block Height** | **Masternodes**  | **PoS**          |
 |------------------|------------------|------------------|
-| 201-Infinite     | 80% (14.4 BTV)   | 20% (3.6 BTV)   |
+| 201-Infinite     | 75% (4.5 BTV)   | 25% (1.5 BTV)   |
